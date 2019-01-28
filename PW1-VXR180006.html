@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PW1-VXR180006</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .row.content {height: 1500px}
+    
+    .sidenav {
+      padding-top: 20px;
+      background-color: #dbf5ebaf;
+      height: 100%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .places{
+        clear: left;
+    }
+
+    img{
+        float: left;
+        width:350px;
+        height:200px;
+        margin-right:15px;
+    }
+    
+    footer {
+      background-color: rgb(119, 118, 118);
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">
+      <img src="bootstrap-solid.svg" style = "width:25px;height:25px;" class="d-inline-block align-top" alt="Logo">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#london">Cities</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#london">London</a></p>
+      <p><a href="#paris">Paris</a></p>
+      <p><a href="#tokyo">Tokyo</a></p>
+    </div>
+    <div class="col-sm-8 text-left" id="home"> 
+      <h1>Country</h1>
+      <p>A country is a region that is identified as a distinct entity in political geography. A country may be an independent sovereign state or part of a larger state, as a non-sovereign or formerly sovereign political division, or a geographic region associated with sets of previously independent or differently associated people with distinct political characteristics. 
+            Regardless of the physical geography, in the modern internationally accepted legal definition as defined by the League of Nations in 1937 and reaffirmed by the United Nations in 1945, a resident of a country is subject to the independent exercise of legal jurisdiction. There is no hard and fast definition of what regions are countries and which are not.
+            Countries can refer both to sovereign states and to other political entities, while other times it can refer only to states. For example, the CIA World Factbook uses the word in its "Country name" field to refer to "a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states".</p>
+      <hr>
+      <h3>Cities:</h3>
+      <div class = "places" id="london"> 
+        <h4>London</h4>
+        <p> <img src="img\london.jpg" alt="london"> 
+        London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+        </p><p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to it’s founding by the Romans, who named it Londinium.
+        </p><p>The City of London, London's ancient core − an area of just 1.12 square miles (2.9 km2) and colloquially known as the Square Mile − retains boundaries that follow closely their medieval limits. The City of Westminster is also an Inner London borough holding city status. Greater London is governed by the Mayor of London and the London Assembly.
+        </p><p>London is often considered as the world's leading global city and has been termed as the world's most powerful, most desirable, most influential, most visited, most expensive, innovative, sustainable, most investment friendly, most popular for work, and the most vegetarian friendly city in the world. 
+        </p><p>London exerts a considerable impact upon the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism and transportation. London ranks 26 out of 300 major cities for economic performance. It is one of the largest financial centres and has either the fifth or sixth largest metropolitan area GDP.
+        </p>
+      </div>
+      <div class = "places" id="paris"> <br>  
+         <h4>Paris</h4> 
+         <p> <img src="img\paris.jpg" alt="paris"> Paris is the capital and the most populous city of France. It has an area of 105 km² (41 mi²) and a population in 2013 of 2,229,621 within the city limits. Paris was founded in the 3rd century BC by a Celtic people called the Parisii, who gave the city its name. 
+         </p><p>By the 12th century, Paris was the largest city in the western world, a prosperous trading center, and the home of the University of Paris, one of the oldest universities in history. At 17th century is the capital of Europe's major power. 
+         </p><p>In the 18th century, it was the center stage of the French Revolution, and was an important center of finance, commerce, fashion, science, and the arts, a position it still retains today.</p>
+         </p><p>The City of Paris is the centre and seat of government of the Île-de-France, or Paris Region, which has an estimated official 2019 population of 12,213,64, or about 18 percent of the population of France. The larger Paris metropolitan area had a population of 12,532,901 in 2015. 
+         </p><p>The Paris Region had a GDP of €681 billion (US$850 billion) in 2016, accounting for 31 percent of the GDP of France, and was the 5th largest region by GDP in the world. According to the Economist Intelligence Unit Worldwide Cost of Living Survey in 2018, Paris was the second-most expensive city in the world, behind Singapore and ahead of Zurich, Hong Kong, Oslo and Geneva.
+      </div>
+      <div class = "places" id="tokyo"> <br> 
+        <h4>Tokyo</h4>
+        <p> <img src="img\tokyo.jpg" alt="tokyo"> Tokyo, officially Tokyo is one of the 47 prefectures of Japan, and is both the capital and most populous city of Japan. The Greater Tokyo Area is the most populous metropolitan area in the world. 
+        </p><p>The urban area houses the seat of the Emperor of Japan, of the Japanese government and of the National Diet. Tokyo forms part of the Kantō region on the southeastern side of Japan's main island, Honshu, and includes the Izu Islands and Ogasawara Islands. Tokyo was formerly named Edo when Shōgun Tokugawa Ieyasu made the city as his headquarters in 1603. 
+        </p><p>It became the capital after Emperor Meiji moved his seat to the city from Kyoto in 1868; at that time Edo was renamed Tokyo. Tokyo Metropolis formed in 1943 from the merger of the former Tokyo Prefecture and the city of Tokyo.
+        </p><p>Tokyo is often referred to as a city but is officially known and governed as a "metropolitan prefecture", which differs from and combines elements of a city and a prefecture, a characteristic unique to Tokyo.
+        </p>
+      </div>  
+    </div>
+    <div class="col-sm-2 sidenav">
+        <p><h3>Other Famous Cities</h3></p>
+        <div class="well">
+            <p><a href = "https://en.wikipedia.org/wiki/Seoul" target="_blank" >Seoul, South Korea</a></p>
+            <p><a href = "https://en.wikipedia.org/wiki/Istanbul" target="_blank" >Istanbul, Turkey</a></p>
+            <p><a href = "https://en.wikipedia.org/wiki/Kuala_Lumpur" target="_blank" >Kuala Lumpur, Malaysia</a></p>
+            <p><a href = "https://en.wikipedia.org/wiki/Singapore" target="_blank" >Singapore</a></p>
+            <p><a href = "https://en.wikipedia.org/wiki/New_York_City" target="_blank" >New York, U.S.A</a></p>
+            <p><a href = "https://en.wikipedia.org/wiki/Dubai" target="_blank" >Dubai, UAE</a></p>
+            <p><a href = "https://en.wikipedia.org/wiki/Bangkok" target="_blank" >Bangkok, Thailand</a></p>
+        </div>          
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center" id="contact">
+  <p>Contact: 800 W Campbell Rd, Richardson, TX 75080</p>
+  <p>Phone: (972) 883-2111</p>
+</footer>
+</body>
+</html>
